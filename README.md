@@ -17,10 +17,8 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 
 # ⬇ Installation
 
-1. Run Cmd As Admin , Than Run These Commands. : powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
-2. 
+1. Run Cmd As Admin , Than Run These Commands. : powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"                                                                                                                  
                                                  powershell -Command "iwr get.scoop.sh -useb | iex"
-   
                                                  scoop install curl
 
 
