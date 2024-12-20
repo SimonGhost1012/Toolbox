@@ -3,7 +3,7 @@
 ![Image](https://github.com/user-attachments/assets/b7dbd5bb-8edf-44c7-9bd1-131ae3142348)
 ![Language](https://img.shields.io/badge/Language-Batch-FF0000)
 ![VirusFree](https://img.shields.io/badge/Virus-Free-FF0000)
-![Platform](https://img.shields.io/badge/Platform-Windows-10/11-FF0000)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-FF0000)
 ![Stability](https://img.shields.io/badge/Stability-Stable-FF0000)
 ![Status](https://img.shields.io/badge/Status-Active-FF0000)
 
