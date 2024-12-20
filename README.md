@@ -27,7 +27,7 @@ scoop install curl
 ```                                                 
 2. Download Toolbox.vX.X.zip from [releases](https://github.com/SimonGhost1012/ToolBox/releases).
 
-3. Extract the zip file using [7-Zip](https://7-zip.com/download.html), [Winrar](https://www.win-rar.com/download.html), or any other file extractor of your choice.
+3. Extract the zip file using [7-Zip](https://7-zip.com/download.html), [WinRAR](https://www.win-rar.com/download.html), or any other file extractor of your choice.
 
 4. Run the batch file.
 
