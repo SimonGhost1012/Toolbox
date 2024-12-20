@@ -33,7 +33,7 @@ scoop install curl
 6. Run The Main Batch File.
 
 # 🖥️ Tested On
-This Program Has Been Tested On Windows 10/11.
+This Batch File Has Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
 Scoop , Curl , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
