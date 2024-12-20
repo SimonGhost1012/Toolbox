@@ -18,15 +18,17 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 # ⬇ Installation
 
 1. Run Cmd As Admin , Than Run These Commands. : powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+2. 
                                                  powershell -Command "iwr get.scoop.sh -useb | iex"
+   
                                                  scoop install curl
 
 
-3. Download The Toolbox.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
+4. Download The Toolbox.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
 
-4. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
+5. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
 
-5. Run The Main Batch File.
+6. Run The Main Batch File.
 
 # 🖥️ Tested On
 This Program Has Been Tested On Windows 10/11.
