@@ -24,6 +24,13 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
                                                  ```
 
 
+   ```
+git status
+git add
+git commit
+```
+
+
 4. Download The Toolbox.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
 
 5. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
