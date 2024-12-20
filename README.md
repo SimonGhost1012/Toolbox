@@ -10,7 +10,7 @@
 
 # ℹ️ Info
 
-This is my own toolbox which I’ve made in batch, it contains a lot of useful functionality that people use on a day-to-day basis.
+This is a toolbox which I’ve made in batch, it contains a lot of useful functionality that people use on a day-to-day basis.
 
 It is recommended to make a shortcut like this on toolbox v1.0-v1.2. <br><br>
 ![Screenshot 2024-10-09 094324](https://github.com/user-attachments/assets/f774e1ec-eaba-4594-a449-40112a6de915)
