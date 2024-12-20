@@ -29,7 +29,7 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 5. Run The Main Batch File.
 
 # 🖥️ Tested On
-This Program Has Been Tested On Windows 11.
+This Program Has Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
 Scoop , Curl , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
