@@ -12,7 +12,7 @@
 
 This is my own toolbox which I’ve made in batch, it contains a lot of useful functionality that people use on a day-to-day basis.
 
-It is recommended to make a shortcut like this on toolbox v1.0-v1.2. <br>
+It is recommended to make a shortcut like this on toolbox v1.0-v1.2. <br><br>
 ![Screenshot 2024-10-09 094324](https://github.com/user-attachments/assets/f774e1ec-eaba-4594-a449-40112a6de915)
 
 # ⬇ Installation
@@ -32,10 +32,10 @@ scoop install curl
 4. Run the batch file.
 
 # 🖥️ Tested On
-This batch file is tested on Windows 10 and 11.
+- This batch file is tested on Windows 10 and 11.
 
 # 🖥️ Requirements
-Scoop, curl, [7-Zip](https://7-zip.com/download.html) for updating it on V1.7+.
+- Scoop, curl, and [7-Zip](https://7-zip.com/download.html) for updating it on V1.7+.
 
 # ⚙️ Features
 - Easy-to-use interface.
@@ -43,14 +43,14 @@ Scoop, curl, [7-Zip](https://7-zip.com/download.html) for updating it on V1.7+.
 - Free and open-source.
 
 # ❓ FAQ
-**Q: How do I update Toolbox? (prior to v1.7)**
+## Q: How do I update Toolbox? (prior to v1.7):
 A: Download the latest version from the [releases](https://github.com/SimonGhost1012/ToolBox/releases) page, afterwards delete and replace the old files.
 
 # 💬 Support
 If you need help or have any questions, feel free to open an issue here or join my [Discord server](https://discord.gg/qns9hbebvj) for assistance.
 
 # 🙏 Thank You!
-Thanks for checking out Toolbox! If you have any feedback or suggestions, feel free to contact me via my [Discord server](https://discord.gg/qns9hbebvj).
+Thanks for checking out Toolbox! If you have any feedback or suggestions, feel free to contact me on my Discord.
 
 # 🖼 Screenshots
 ![image](https://github.com/user-attachments/assets/bded4d0f-63a3-44ae-ad96-ea237411b33d)
