@@ -10,55 +10,50 @@
 
 # ℹ️ Info
 
-This Is My Own ToolBox Which I've Made In Batch , It's Fully Open Source And It Contains No Malware Or Similar Like That.
+This is my own toolbox which I’ve made in batch, it contains a lot of useful functionality that people use on a day-to-day basis.
 
-It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 to V1.2.
+It is recommended to make a shortcut like this on toolbox v1.0-v1.2. <br>
 ![Screenshot 2024-10-09 094324](https://github.com/user-attachments/assets/f774e1ec-eaba-4594-a449-40112a6de915)
 
 # ⬇ Installation
 
-1. Run Cmd As Admin , Than Run These Commands.
+1. Open Command Prompt as admin, then run:
 ```
 powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
 
 powershell -Command "iwr get.scoop.sh -useb | iex"
    
 scoop install curl
-```
-                                                 
-4. Download The Toolbox.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
+```                                                 
+2. Download Toolbox.vX.X.zip from [releases](https://github.com/SimonGhost1012/ToolBox/releases).
 
-5. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
+3. Extract the zip file using [7-Zip](https://7-zip.com/download.html), [Winrar](https://www.win-rar.com/download.html), or any other file extractor of your choice.
 
-6. Run The Main Batch File.
+4. Run the batch file.
 
 # 🖥️ Tested On
-This Program Has Been Tested On Windows 10/11.
+This batch file is tested on Windows 10 and 11.
 
 # 🖥️ Requirements
-Scoop , Curl , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
+Scoop, curl, [7-Zip](https://7-zip.com/download.html) for updating it on V1.7+.
 
 # ⚙️ Features
-- Easy-To-Use Interface
-- Lightweight And Fast
-- Free And Open-Source
+- Easy-to-use interface.
+- Lightweight and efficient.
+- Free and open-source.
 
 # ❓ FAQ
-**Q: How Do I Update Toolbox?**
-A: Download The Latest Version From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases) Page , Delete And Replace The Old Files.
-
-On V1.7+ You Dont Need To Download It From The Release Page Anymore.
+**Q: How do I update Toolbox? (prior to v1.7)**
+A: Download the latest version from the [releases](https://github.com/SimonGhost1012/ToolBox/releases) page, afterwards delete and replace the old files.
 
 # 💬 Support
-If You Need Help Or Have Any Questions, Feel Free To Open An Issue On GitHub Or Join My [Discord Server](https://discord.gg/qnS9HbEBVj) For Assistance.
+If you need help or have any questions, feel free to open an issue here or join my [Discord server](https://discord.gg/qns9hbebvj) for assistance.
 
 # 🙏 Thank You!
-Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel Free To Contact Me Via My [Discord Server](https://discord.gg/qnS9HbEBVj).
+Thanks for checking out Toolbox! If you have any feedback or suggestions, feel free to contact me via my [Discord server](https://discord.gg/qns9hbebvj).
 
 # 🖼 Screenshots
-
 ![image](https://github.com/user-attachments/assets/bded4d0f-63a3-44ae-ad96-ea237411b33d)
 
 # 📄 License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
