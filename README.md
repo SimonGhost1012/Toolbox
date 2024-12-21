@@ -28,7 +28,7 @@ scoop install curl
 scoop install  jq
 ```
                                                  
-4. Download The Toolbox.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
+4. Download The Toolbox VX.X.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
 
 5. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
 
