@@ -38,7 +38,7 @@ scoop install  jq
 This Batch File Has Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
-Scoop , Curl ,JQ , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
+Scoop , Curl , JQ , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
 
 # ⚙️ Features
 - Easy-To-Use Interface
