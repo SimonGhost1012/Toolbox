@@ -24,6 +24,8 @@ powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
 powershell -Command "iwr get.scoop.sh -useb | iex"
    
 scoop install curl
+
+scoop install  jq
 ```
                                                  
 4. Download The Toolbox.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
@@ -36,7 +38,7 @@ scoop install curl
 This Batch File Has Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
-Scoop , Curl , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
+Scoop , Curl ,JQ , [7-Zip](https://7-zip.com/download.html) For Updating The Software On V1.7+
 
 # ⚙️ Features
 - Easy-To-Use Interface
