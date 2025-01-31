@@ -17,7 +17,7 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 
 # ⬇ Installation
 
-1. Run Cmd Not As Admin , Than Run These Commands.
+1. Run Cmd Not As Admin , Than Run These Commands Or Run Install Requirements.bat Not As Admin.
 ```
 powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
 
@@ -28,11 +28,11 @@ scoop install curl
 scoop install  jq
 ```
                                                  
-4. Download The Toolbox VX.X.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
+2. Download The Toolbox VX.X.zip File From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases).
 
-5. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
+3. Extract The Zip File Where Every You Wannt Using [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
 
-6. Run The Main Batch File.
+4. Run The Main Batch File.
 
 # 🖥️ Tested On
 This Batch File Has Been Tested On Windows 10/11.
