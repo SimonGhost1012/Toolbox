@@ -7,7 +7,36 @@
 ![Stability](https://img.shields.io/badge/Stability-Stable-FF0000)
 ![Status](https://img.shields.io/badge/Status-Active-FF0000)
 
-[![Docs Button](https://simonghost1012.github.io)](https://toolbox-4.gitbook.io/toolbox/)
+[![Docs Button](https://simonghost1012.github.io/SimonGhost1012.github.io/docs/index.html)](https://toolbox-4.gitbook.io/toolbox/)
+
+<style>
+    .github-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 15px;
+        background-color: #0d1117;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 7px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        max-width: 160px;
+        white-space: nowrap;
+    }
+
+    .github-button:hover {
+        background-color: #ff0000;
+        transform: scale(1.05); /* Slightly enlarge the button on hover */
+    }
+
+    .github-button img {
+        width: 30px;
+        margin-right: 10px;
+    }
+</style>
+
 
 # ℹ️ Info
 
