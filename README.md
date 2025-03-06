@@ -17,7 +17,7 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 
 # ⬇ Installation
 
-1. Run Cmd Not As Admin , Than Run These Commands Or Run Install Requirements.bat Not As Admin.
+1. Run Cmd Not As Admin , Than Run These Commands Or Run Install Requirements.bat Not As Admin Inside The Toolbox Folder.
 ```
 powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
 
