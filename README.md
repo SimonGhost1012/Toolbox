@@ -47,6 +47,7 @@ Scoop , Curl , JQ , [7-Zip](https://7-zip.com/download.html) For Updating The So
 
 # ❓ FAQ
 **Q: How Do I Update Toolbox?**
+
 A: Download The Latest Version From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases) Page , Delete And Replace The Old Files.
 
 On V1.7+ You Dont Need To Download It From The Release Page Anymore.
