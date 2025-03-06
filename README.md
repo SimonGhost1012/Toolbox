@@ -6,6 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-FF0000)
 ![Stability](https://img.shields.io/badge/Stability-Stable-FF0000)
 ![Status](https://img.shields.io/badge/Status-Active-FF0000)
+<a class="github-button" href="https://toolbox-4.gitbook.io/toolbox" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-icon="octicon-Docs" data-size="large" aria-label="Docs">Docs</a>
 
 
 # ℹ️ Info
