@@ -9,35 +9,6 @@
 
 [![Docs Button](https://simonghost1012.github.io/SimonGhost1012.github.io/docs/index.html)](https://toolbox-4.gitbook.io/toolbox/)
 
-<style>
-    .github-button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 15px;
-        background-color: #0d1117;
-        color: white;
-        font-size: 15px;
-        font-weight: bold;
-        border-radius: 7px;
-        text-decoration: none;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        max-width: 160px;
-        white-space: nowrap;
-    }
-
-    .github-button:hover {
-        background-color: #ff0000;
-        transform: scale(1.05); /* Slightly enlarge the button on hover */
-    }
-
-    .github-button img {
-        width: 30px;
-        margin-right: 10px;
-    }
-</style>
-
-
 # ℹ️ Info
 
 This Is My Own ToolBox Which I've Made In Batch , It's Fully Open Source And It Contains No Malware Or Similar Like That.
