@@ -7,7 +7,7 @@
 ![Stability](https://img.shields.io/badge/Stability-Stable-FF0000)
 ![Status](https://img.shields.io/badge/Status-Active-FF0000)
 
-<a href="https://toolbox-4.gitbook.io/toolbox/">
+<a href="https://toolbox.mintlify.app/">
     <img src="https://github.com/SimonGhost1012/SimonGhost1012.github.io/blob/main/docs/static/media/button.png" alt="Docs Button" width="120" height="70" />
 </a>
 
