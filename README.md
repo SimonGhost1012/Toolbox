@@ -62,6 +62,12 @@ If You Need Help Or Have Any Questions, Feel Free To Open An Issue On GitHub Or 
 # 🙏 Thank You!
 Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel Free To Contact Me Via My [Discord Server](https://discord.gg/qnS9HbEBVj).
 
+BTC : bc1qknyzhx7at2gylt3w8lqxx9zqzmd42pnf0f8km4
+
+ETH : 0x2b6070904D715fD597796F112B50d4d34dD3AF2b
+
+SOL : 4QJXA8ejkdiixgCMpVFHEdGQWGw7WXweH6sUuMeb2cBt
+
 # 🖼 Screenshots
 
 ![image](https://github.com/user-attachments/assets/bded4d0f-63a3-44ae-ad96-ea237411b33d)
