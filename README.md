@@ -53,11 +53,11 @@ If You Need Help Or Have Any Questions, Feel Free To Open An Issue On GitHub Or 
 # 🙏 Thank You!
 Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel Free To Contact Me Via My [Discord Server](https://discord.gg/qnS9HbEBVj).
 
-BTC : bc1qknyzhx7at2gylt3w8lqxx9zqzmd42pnf0f8km4
+BTC : bc1qjxja2rv0zsfs90wv22acgjuf5903vc86uj77y4
 
-ETH : 0x2b6070904D715fD597796F112B50d4d34dD3AF2b
+ETH : 0x5e5cfcff9858bdd66ca448954c370007fb942518
 
-SOL : 4QJXA8ejkdiixgCMpVFHEdGQWGw7WXweH6sUuMeb2cBt
+SOL : 4szmAhZFJ8TRvLiVPyygZzZM7qE2cRySGEFyJ4uA4Qzy
 
 # 🖼 Screenshots
 
