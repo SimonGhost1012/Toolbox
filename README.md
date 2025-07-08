@@ -1,7 +1,7 @@
 # Toolbox
 
 ![Image](https://github.com/user-attachments/assets/b7dbd5bb-8edf-44c7-9bd1-131ae3142348)
-![Language](https://img.shields.io/badge/Language-Batch-3f3f3f)
+![Language](https://img.shields.io/badge/Language-Batch-ffffff)
 ![VirusFree](https://img.shields.io/badge/Virus-Free-FF0000)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-FF0000)
 ![Stability](https://img.shields.io/badge/Stability-Stable-FF0000)
