@@ -62,6 +62,8 @@ SOL : 4szmAhZFJ8TRvLiVPyygZzZM7qE2cRySGEFyJ4uA4Qzy
 # 🖼 Screenshots
 
 ![image](https://github.com/user-attachments/assets/bded4d0f-63a3-44ae-ad96-ea237411b33d)
+![Screenshot 2025-07-08 230314](https://github.com/user-attachments/assets/752db3e8-27f4-42c6-b3a6-e35f2cf69ff5)
+
 
 # 📄 License
 
