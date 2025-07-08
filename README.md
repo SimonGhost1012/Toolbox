@@ -2,10 +2,10 @@
 
 ![Image](https://github.com/user-attachments/assets/b7dbd5bb-8edf-44c7-9bd1-131ae3142348)
 ![Language](https://img.shields.io/badge/Language-Batch-ffffff)
-![VirusFree](https://img.shields.io/badge/Virus-Free-FF0000)
-![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-FF0000)
-![Stability](https://img.shields.io/badge/Stability-Stable-FF0000)
-![Status](https://img.shields.io/badge/Status-Active-FF0000)
+![VirusFree](https://img.shields.io/badge/Virus-Free-ffffff)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-ffffff)
+![Stability](https://img.shields.io/badge/Stability-Stable-ffffff)
+![Status](https://img.shields.io/badge/Status-Active-ffffff)
 
 <a href="https://toolbox.mintlify.app/">
     <img src="https://github.com/SimonGhost1012/SimonGhost1012.github.io/blob/main/docs/static/media/button.png" alt="Docs Button" width="120" height="70" />
