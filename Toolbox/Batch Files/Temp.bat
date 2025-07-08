@@ -9,7 +9,6 @@ if %errorLevel% neq 0 (
 
 
 title Toolbox Temp - Ghost
-color 4
 
 ECHO Deleting User Temp Files
 DEL /S /Q /F "%TEMP%\*.*"

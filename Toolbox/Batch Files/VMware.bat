@@ -8,7 +8,6 @@ if %errorLevel% neq 0 (
 )
 
 title Toolbox VMware - Ghost
-color 4
 setlocal enabledelayedexpansion
 
 echo Force stopping VMware services...

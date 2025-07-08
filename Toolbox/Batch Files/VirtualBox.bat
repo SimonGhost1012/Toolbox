@@ -9,7 +9,6 @@ if %errorLevel% neq 0 (
 
 
 title Toolbox VirtualBox - Ghost
-color 4
 echo Stopping all VirtualBox processes...
 
 :: Kill the VirtualBox virtual machine processes

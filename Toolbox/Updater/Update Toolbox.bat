@@ -1,6 +1,5 @@
 @echo off
 title Toolbox Updater - Ghost
-color 4
 setlocal
 
 REM Set CURRENT_DIR to the directory where the script is located

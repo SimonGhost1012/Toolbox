@@ -6,52 +6,52 @@ cls
 echo.
 echo.
 ping localhost -n 2 >nul
-echo [38;5;88m╔═════════════════════════════════╗[0m
+echo [38;5;243m╔═════════════════════════════════╗[0m
 ping localhost -n 1 >nul
-echo [38;5;88m║   CREDITS FOR TOOLBOX - GHOST   ║[0m
+echo [38;5;243m║   CREDITS FOR TOOLBOX - GHOST   ║[0m
 ping localhost -n 1 >nul
-echo [38;5;88m╠═════════════════════════════════╣[0m
+echo [38;5;243m╠═════════════════════════════════╣[0m
 ping localhost -n 1 >nul
-echo [38;5;88m║		    	          ║
+echo [38;5;243m║		    	          ║
 ping localhost -n 1 >nul
-echo [38;5;124m║     Owner/Developer/Forked:[0m[38;5;124m     ║
+echo [38;5;245m║     Owner/Developer/Forked:[0m[38;5;245m     ║
 ping localhost -n 1 >nul
-echo [38;5;124m║     - SimonGhost1012[38;5;124m            ║
+echo [38;5;245m║     - SimonGhost1012[38;5;245m            ║
 ping localhost -n 1 >nul
-echo [38;5;124m║                                 ║
+echo [38;5;245m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;124m║     Owner:[0m[38;5;124m                      ║
+echo [38;5;245m║     Owner:[0m[38;5;245m                      ║
 ping localhost -n 1 >nul
-echo [38;5;160m║     - Ebola Man[38;5;160m                 ║
+echo [38;5;247m║     - Ebola Man[38;5;247m                 ║
 ping localhost -n 1 >nul
-echo [38;5;160m║                                 ║
+echo [38;5;247m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;160m║     Beta Tester:[38;5;160m                ║
+echo [38;5;247m║     Beta Tester:[38;5;247m                ║
 ping localhost -n 1 >nul
-echo [38;5;160m║     - FireFlyHD[0m[38;5;160m                 ║
+echo [38;5;247m║     - FireFlyHD[0m[38;5;247m                 ║
 ping localhost -n 1 >nul
-echo [38;5;124m║                                 ║
+echo [38;5;245m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;124m║     YouTube:[0m[38;5;124m                    ║
+echo [38;5;245m║     YouTube:[0m[38;5;245m                    ║
 ping localhost -n 1 >nul
-echo [38;5;124m║     - Ebola Man[0m[38;5;124m                 ║
+echo [38;5;245m║     - Ebola Man[0m[38;5;245m                 ║
 ping localhost -n 1 >nul
-echo [38;5;124m║                                 ║
+echo [38;5;245m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;88m║     Original Batch Creator:[0m[38;5;88m     ║
+echo [38;5;243m║     Original Batch Creator:[0m[38;5;243m     ║
 ping localhost -n 1 >nul
-echo [38;5;88m║     - Ebola Man[0m[38;5;88m                 ║
+echo [38;5;243m║     - Ebola Man[0m[38;5;243m                 ║
 ping localhost -n 1 >nul
-echo [38;5;88m║	    		          ║
+echo [38;5;243m║	    		          ║
 ping localhost -n 1 >nul
-echo [38;5;88m╚═════════════════════════════════╝[0m
-ping localhost -n 1 >nul
-echo.
-ping localhost -n 1 >nul
-echo [38;5;124mThank You For Using Toolbox - Ghost![0m
+echo [38;5;243m╚═════════════════════════════════╝[0m
 ping localhost -n 1 >nul
 echo.
 ping localhost -n 1 >nul
-echo [38;5;160mPress Any Key To Return To The Main Menu...[0m
+echo [38;5;245mThank You For Using Toolbox - Ghost![0m
+ping localhost -n 1 >nul
+echo.
+ping localhost -n 1 >nul
+echo [38;5;247mPress Any Key To Return To The Main Menu...[0m
 pause >nul
 exit

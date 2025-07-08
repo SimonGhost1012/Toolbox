@@ -1,6 +1,5 @@
 @echo off
 title Toolbox Requirements Installer-Updater - Ghost
-color 4
 
 echo Installing And Updating Requirements
 timeout /t 1 >nul

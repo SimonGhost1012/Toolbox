@@ -12,39 +12,39 @@ set "pwlength=%default_pwlength%" :: Current password length initialized to defa
 :main_menu
 cls
 ping localhost -n 2 >nul
-echo [38;5;88m╔═════════════════════════════════╗[0m
+echo [38;5;243m╔═════════════════════════════════╗[0m
 ping localhost -n 1 >nul
-echo [38;5;88m║   PASSWORD GENERATOR - GHOST    ║[0m
+echo [38;5;243m║   PASSWORD GENERATOR - GHOST    ║[0m
 ping localhost -n 1 >nul
-echo [38;5;88m╠═════════════════════════════════╣[0m
+echo [38;5;243m╠═════════════════════════════════╣[0m
 ping localhost -n 1 >nul
-echo [38;5;124m║		    	          ║
+echo [38;5;245m║		    	          ║
 ping localhost -n 1 >nul
-echo [38;5;124m║       Generate A Password[0m[38;5;124m       ║
+echo [38;5;245m║       Generate A Password[0m[38;5;245m       ║
 ping localhost -n 1 >nul
-echo [38;5;124m║             Option 1[38;5;124m            ║
+echo [38;5;245m║             Option 1[38;5;245m            ║
 ping localhost -n 1 >nul
-echo [38;5;160m║                                 ║
+echo [38;5;247m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;160m║             Options[0m[38;5;124m             ║
+echo [38;5;247m║             Options[0m[38;5;247m             ║
 ping localhost -n 1 >nul
-echo [38;5;160m║             Option 2[38;5;160m            ║
+echo [38;5;247m║             Option 2[38;5;247m            ║
 ping localhost -n 1 >nul
-echo [38;5;124m║                                 ║
+echo [38;5;245m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;124m║              Exit[38;5;160m               ║
+echo [38;5;245m║              Exit[38;5;245m               ║
 ping localhost -n 1 >nul
-echo [38;5;124m║             Option E[0m[38;5;160m            ║
+echo [38;5;245m║             Option E[0m[38;5;245m            ║
 ping localhost -n 1 >nul
-echo [38;5;88m║    Current Password Length: %pwlength%  ║
+echo [38;5;243m║    Current Password Length: %pwlength%  ║
 ping localhost -n 1 >nul
-echo [38;5;88m║                                 ║
+echo [38;5;243m║                                 ║
 ping localhost -n 1 >nul
-echo [38;5;88m╚═════════════════════════════════╝[0m
+echo [38;5;243m╚═════════════════════════════════╝[0m
 ping localhost -n 1 >nul
 echo.
 ping localhost -n 1 >nul
-echo|set /p="[38;5;124mSelect An Option > [0m"
+echo|set /p="[38;5;245mSelect An Option > [0m"
 choice /c 12E /n
 
 if errorlevel 3 goto exit
@@ -58,18 +58,18 @@ for /L %%i in (1,1,%boxWidth%) do set "border=!border!═"
 
 :generate_password
 cls
-echo [38;5;124m Generating A Password Of Length %pwlength%...
+echo [38;5;245m Generating A Password Of Length %pwlength%...
 set "password=" 
 for /l %%i in (1,1,%pwlength%) do (
     set /a "rand=!random! %% 74"
     for %%j in (!rand!) do set "password=!password!!chars:~%%j,1!"
 )
 ping localhost -n 1 >nul
-echo [38;5;88m ════════════════════════════════════════════════════════════════════════════
+echo [38;5;243m ════════════════════════════════════════════════════════════════════════════
 ping localhost -n 1 >nul
-echo [38;5;124m  Your Generated Password: !password!
+echo [38;5;245m  Your Generated Password: !password!
 ping localhost -n 1 >nul
-echo [38;5;88m ════════════════════════════════════════════════════════════════════════════
+echo [38;5;243m ════════════════════════════════════════════════════════════════════════════
 ping localhost -n 1 >nul
 pause
 goto main_menu
@@ -77,29 +77,29 @@ goto main_menu
 :settings
 cls
 ping localhost -n 1 >nul
-echo [38;5;88m ╔═════════════════════════════════╗
+echo [38;5;243m ╔═════════════════════════════════╗
 ping localhost -n 1 >nul
-echo [38;5;88m ║             Options             ║  
+echo [38;5;243m ║             Options             ║  
 ping localhost -n 1 >nul 
-echo [38;5;124m ╠═════════════════════════════════╣
+echo [38;5;245m ╠═════════════════════════════════╣
 ping localhost -n 1 >nul
-echo [38;5;124m ║   Current Password Length: %pwlength%   ║
+echo [38;5;245m ║   Current Password Length: %pwlength%   ║
 ping localhost -n 1 >nul
-echo [38;5;160m ║   Default Password Length: %default_pwlength%   ║
+echo [38;5;247m ║   Default Password Length: %default_pwlength%   ║
 ping localhost -n 1 >nul
-echo [38;5;160m ╠═════════════════════════════════╣
+echo [38;5;247m ╠═════════════════════════════════╣
 ping localhost -n 1 >nul
-echo [38;5;124m ║   [1] Change Password Length    ║
+echo [38;5;245m ║   [1] Change Password Length    ║
 ping localhost -n 1 >nul
-echo [38;5;124m ║   [2] Reset Length To Default   ║
+echo [38;5;245m ║   [2] Reset Length To Default   ║
 ping localhost -n 1 >nul
-echo [38;5;88m ║   [E] Back to Main Menu         ║
+echo [38;5;243m ║   [E] Back to Main Menu         ║
 ping localhost -n 1 >nul
-echo [38;5;88m ╚═════════════════════════════════╝
+echo [38;5;243m ╚═════════════════════════════════╝
 ping localhost -n 1 >nul
 echo.
 ping localhost -n 1 >nul
-echo|set /p="[38;5;124mSelect An Option > [0m"
+echo|set /p="[38;5;245mSelect An Option > [0m"
 choice /c 12E /n"
 
 if errorlevel 3 goto main_menu
@@ -109,17 +109,17 @@ if errorlevel 1 goto change_pwlength
 :change_pwlength
 cls
 ping localhost -n 1 >nul
-echo [38;5;88m ╔═════════════════════════════════╗
+echo [38;5;243m ╔═════════════════════════════════╗
 ping localhost -n 1 >nul
-echo [38;5;124m ║       Change Password Length    ║
+echo [38;5;245m ║       Change Password Length    ║
 ping localhost -n 1 >nul
-echo [38;5;160m ╠═════════════════════════════════╣
+echo [38;5;247m ╠═════════════════════════════════╣
 ping localhost -n 1 >nul
-echo [38;5;160m ║   Current Password Length: %pwlength%   ║
+echo [38;5;247m ║   Current Password Length: %pwlength%   ║
 ping localhost -n 1 >nul
-echo [38;5;124m ║   Default Password Length: %default_pwlength%   ║
+echo [38;5;245m ║   Default Password Length: %default_pwlength%   ║
 ping localhost -n 1 >nul
-echo [38;5;88m ╚═════════════════════════════════╝
+echo [38;5;243m ╚═════════════════════════════════╝
 ping localhost -n 1 >nul
 set /p "newlength=Enter New Password Length (4-50): "
 
@@ -139,11 +139,11 @@ goto settings
 cls
 set "pwlength=%default_pwlength%"
 ping localhost -n 1 >nul
-echo [38;5;88m ╔═════════════════════════════════╗
+echo [38;5;243m ╔═════════════════════════════════╗
 ping localhost -n 1 >nul
-echo [38;5;124m ║  Password Reset To Default: %pwlength%  ║
+echo [38;5;245m ║  Password Reset To Default: %pwlength%  ║
 ping localhost -n 1 >nul
-echo [38;5;88m ╚═════════════════════════════════╝
+echo [38;5;243m ╚═════════════════════════════════╝
 ping localhost -n 1 >nul
 pause
 goto settings
