@@ -24,7 +24,7 @@ echo [38;5;245m                      ╚══██╔══╝ ██╔═�
 ping localhost -n 1 >nul
 echo [38;5;247m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██████╔╝ ██║   ██║  ╚███╔╝      ║   Version   ║    [0m
 ping localhost -n 1 >nul
-echo [38;5;249m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║     3.9     ║    [0m
+echo [38;5;249m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║     4.0     ║    [0m
 ping localhost -n 1 >nul
 echo [38;5;251m                       	 ██║    ╚██████╔╝ ╚██████╔╝ ███████╗ ██████╔╝ ╚██████╔╝ ██╔╝ ██╗     ║             ║    [0m
 ping localhost -n 1 >nul
@@ -49,15 +49,15 @@ echo    [90;1m#╦════════════════════�
 ping localhost -n 1 >nul
 echo    [90;1m ║                                    ║                                                     ╚═»[0m  [38;5;249m[   PW Gen   ] [0m [38;5;243m [P][0m
 ping localhost -n 1 >nul
-echo    [90;1m ╠═══════»[0m [38;5;249m[     Cleaner     ][0m [38;5;243m[1][0m   [90;1m ╠═══════»[0m [38;5;249m[    Task Manager   ][0m [38;5;243m[5][0m
+echo    [90;1m ╠═══════»[0m [38;5;249m[     Cleaner     ][0m [38;5;243m[1][0m   [90;1m ╠═══════»[0m [38;5;249m[    Task Manager   ][0m [38;5;243m[6][0m
 ping localhost -n 1 >nul
-echo     [90;1m╠═══════»[0m [38;5;249m[   Kill VMware   ][0m [38;5;243m[2][0m   [90;1m ╠═══════»[0m [38;5;249m[  Registry Editor  ][0m [38;5;243m[6][0m
+echo     [90;1m╠═══════»[0m [38;5;249m[   Kill VMware   ][0m [38;5;243m[2][0m   [90;1m ╠═══════»[0m [38;5;249m[  Registry Editor  ][0m [38;5;243m[7][0m
 ping localhost -n 1 >nul
-echo     [90;1m╠═══════»[0m [38;5;249m[ Kill VirtualBox ][0m [38;5;243m[3][0m   [90;1m ╠═══════»[0m [38;5;249m[   Control Panel   ][0m [38;5;243m[7][0m
+echo     [90;1m╠═══════»[0m [38;5;249m[ Kill VirtualBox ][0m [38;5;243m[3][0m   [90;1m ╠═══════»[0m [38;5;249m[   Control Panel   ][0m [38;5;243m[8][0m
 ping localhost -n 1 >nul
-echo     [90;1m╠═══════»[0m [38;5;249m[     Settings    ][0m [38;5;243m[4][0m   [90;1m ╠═══════»[0m [38;5;249m[   Command Prompt  ][0m [38;5;243m[8][0m
+echo     [90;1m╠═══════»[0m [38;5;249m[     Settings    ][0m [38;5;243m[4][0m   [90;1m ╠═══════»[0m [38;5;249m[   Command Prompt  ][0m [38;5;243m[9][0m
 ping localhost -n 1 >nul
-echo     [90;1m╠═══════»[0m [38;5;249m[     Utilities   ][0m [38;5;243m[9][0m   [90;1m ╚═══════»[0m [38;5;249m[    System Info    ][0m [38;5;243m[0][0m
+echo     [90;1m╠═══════»[0m [38;5;249m[     Utilities   ][0m [38;5;243m[5][0m   [90;1m ╚═══════»[0m [38;5;249m[    System Info    ][0m [38;5;243m[0][0m
 echo|set /p="[90;1m    ║[0m"
 ping localhost -n 1 >nul
 echo.
@@ -91,15 +91,15 @@ for /l %%i in (3,-1,1) do (
 
 <nul set /p "=[G[2K!myprompt!"
 
-if "%char%"=="1" start "" Temp.bat
+if "%char%"=="1" start "" Cleaner.bat
 if "%char%"=="2" start "" VMware.bat
 if "%char%"=="3" start "" Virtualbox.bat
 if "%char%"=="4" start "" Settings.bat
-if "%char%"=="5" start "" TaskManager.bat
-if "%char%"=="6" start "" RegistryEditor.bat
-if "%char%"=="7" start "" ControlPanel.bat
-if "%char%"=="8" start "" cmd.exe
-if "%char%"=="9" start "" Utilities.bat
+if "%char%"=="5" start "" Utilities.bat
+if "%char%"=="6" start "" TaskManager.bat
+if "%char%"=="7" start "" RegistryEditor.bat
+if "%char%"=="8" start "" ControlPanel.bat
+if "%char%"=="9" start "" cmd.exe
 if "%char%"=="0" start "" SystemInfo.bat
 if "%char%"=="C" start "" ToolboxCredits.bat
 if "%char%"=="P" start "" PasswordGen.bat
