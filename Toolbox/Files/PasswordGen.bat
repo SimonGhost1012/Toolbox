@@ -1,8 +1,8 @@
 @echo off
-mode 80, 30
 title  Toolbox Password Generator - Ghost
 chcp 65001 >nul
 setlocal enabledelayedexpansion
+mode 125, 30
 
 :: Default Configuration
 set "chars=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&"
@@ -44,7 +44,7 @@ echo [38;5;243m╚════════════════════�
 ping localhost -n 1 >nul
 echo.
 ping localhost -n 1 >nul
-echo|set /p="[38;5;245mSelect An Option > [0m"
+echo|set /p="[38;5;245mSelect An Option : [0m"
 choice /c 12E /n
 
 if errorlevel 3 goto exit

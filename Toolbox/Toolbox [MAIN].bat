@@ -3,7 +3,7 @@ setlocal EnableDelayedExpansion
 mode 125, 30
 title Toolbox Loader - Ghost
 chcp 65001 >nul
-cd "Batch Files"
+cd "Files"
 
 cls
 echo.
