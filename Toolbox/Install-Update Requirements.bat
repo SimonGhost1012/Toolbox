@@ -25,6 +25,9 @@ if %ERRORLEVEL% neq 0 (
     set "PATH=%PATH%;%USERPROFILE%\scoop\shims"
 )
 
+winget install --id Microsoft.WindowsTerminal --source winget --accept-package-agreements --accept-source-agreements
+winget upgrade --id Microsoft.WindowsTerminal --source winget --accept-package-agreements --accept-source-agreements
+
 scoop update & scoop install git & scoop install jq & scoop install curl & scoop update git & scoop update jq & scoop update curl
 
 exit
