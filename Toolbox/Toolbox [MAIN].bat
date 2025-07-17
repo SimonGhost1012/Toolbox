@@ -13,6 +13,18 @@ if not defined firstRun (
     goto input
 )
 
+>nul 2>&1 reg query HKCU\Console || >nul reg add HKCU\Console /f
+
+reg query HKCU\Console /v VirtualTerminalLevel 2>nul | findstr /r /c:"0x1" >nul
+if errorlevel 1 (
+    >nul reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1 /f
+
+    echo ANSI Support Enabled. Restarting Script...
+    timeout /t 1 >nul
+
+    start "" "%~f0" %*
+    exit /b
+)
 
 :start
 cls
@@ -26,7 +38,7 @@ echo [38;5;245m                      ╚══██╔══╝ ██╔═�
 ping localhost -n 1 >nul
 echo [38;5;247m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██████╔╝ ██║   ██║  ╚███╔╝      ║   Version   ║    [0m
 ping localhost -n 1 >nul
-echo [38;5;249m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║     4.1     ║    [0m
+echo [38;5;249m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║     4.2     ║    [0m
 ping localhost -n 1 >nul
 echo [38;5;251m                       	 ██║    ╚██████╔╝ ╚██████╔╝ ███████╗ ██████╔╝ ╚██████╔╝ ██╔╝ ██╗     ║             ║    [0m
 ping localhost -n 1 >nul

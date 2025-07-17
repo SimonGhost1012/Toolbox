@@ -2,6 +2,8 @@
 title Toolbox Updater - Ghost
 setlocal
 
+reg add HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1 /f >nul 2>&1
+
 set "CURRENT_DIR=%~dp0"
 
 cd /d "%CURRENT_DIR%"
