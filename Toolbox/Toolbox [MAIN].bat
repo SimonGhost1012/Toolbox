@@ -34,16 +34,44 @@ echo.
 ping localhost -n 2 >nul
 echo [38;5;243m                      ████████╗  ██████╗   ██████╗  ██╗      ██████╗   ██████╗  ██╗  ██╗     ╔═════════════╗[0m
 ping localhost -n 1 >nul
-echo [38;5;245m                      ╚══██╔══╝ ██╔═══██╗ ██╔═══██╗ ██║      ██╔══██╗ ██╔═══██╗ ╚██╗██╔╝     ║             ║[0m
+echo [38;5;245m                      ╚══██╔══╝ ██╔═══██╗ ██╔═══██╗ ██║      ██╔══██╗ ██╔═══██╗ ╚██╗██╔╝     ║   Version   ║[0m
 ping localhost -n 1 >nul
-echo [38;5;247m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██████╔╝ ██║   ██║  ╚███╔╝      ║   Version   ║    [0m
+echo [38;5;247m                         ██║    ██║   ██║ ██║   ██║ ██║      ██████╔╝ ██║   ██║  ╚███╔╝      ║     4.3     ║[0m
+
+setlocal EnableDelayedExpansion
+set "LOCAL_VERSION_FILE=%~dp0Updater\Version.txt"
+set "LATEST_JSON=%TEMP%\release.json"
+set "LATEST_VERSION="
+set "LOCAL_VERSION="
+
+if exist "!LOCAL_VERSION_FILE!" (
+    set /p LOCAL_VERSION=<"!LOCAL_VERSION_FILE!"
+
+    curl -s https://api.github.com/repos/SimonGhost1012/Toolbox/releases/latest > "!LATEST_JSON!" 2>nul
+
+    for /f "delims=" %%i in (
+        'powershell -nologo -command "try { (Get-Content -Raw \"!LATEST_JSON!\" | ConvertFrom-Json).tag_name } catch { \"\" }"'
+    ) do (
+        set "LATEST_VERSION=%%i"
+    )
+
+    set "LOCAL_VERSION_STRIPPED=!LOCAL_VERSION:"=!"
+    set "LATEST_VERSION_STRIPPED=!LATEST_VERSION:"=!"
+
+    if defined LATEST_VERSION_STRIPPED if /i not "!LATEST_VERSION_STRIPPED!"=="!LOCAL_VERSION_STRIPPED!" (
+        echo [38;5;249m                         ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║   Update^^!   ║[0m
+        echo [38;5;251m                         ██║    ╚██████╔╝ ╚██████╔╝ ███████╗ ██████╔╝ ╚██████╔╝ ██╔╝ ██╗     ║  Available^^! ║[0m
+    ) else (
+        echo [38;5;249m                         ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║             ║[0m
+        echo [38;5;251m                         ██║    ╚██████╔╝ ╚██████╔╝ ███████╗ ██████╔╝ ╚██████╔╝ ██╔╝ ██╗     ║ Up-To-Date  ║[0m
+    )
+
+    del /q "!LATEST_JSON!" >nul 2>&1
+)
+endlocal
 ping localhost -n 1 >nul
-echo [38;5;249m                    	 ██║    ██║   ██║ ██║   ██║ ██║      ██╔══██╗ ██║   ██║  ██╔██╗      ║     4.2     ║    [0m
-ping localhost -n 1 >nul
-echo [38;5;251m                       	 ██║    ╚██████╔╝ ╚██████╔╝ ███████╗ ██████╔╝ ╚██████╔╝ ██╔╝ ██╗     ║             ║    [0m
-ping localhost -n 1 >nul
-echo [38;5;253m		       	 ╚═╝     ╚═════╝   ╚═════╝  ╚══════╝ ╚═════╝   ╚═════╝  ╚═╝  ╚═╝     ╚═════════════╝[0m
-ping localhost -n 1 >nul 
+echo [38;5;253m                         ╚═╝     ╚═════╝   ╚═════╝  ╚══════╝ ╚═════╝   ╚═════╝  ╚═╝  ╚═╝     ╚═════════════╝[0m
+
 echo.
 echo.
 echo.
