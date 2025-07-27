@@ -1,7 +1,16 @@
 @echo off
 cd /d "%~dp0Files"
 setlocal EnableDelayedExpansion
+set "LOCAL_VERSION_FILE=%~dp0Updater\Version.txt"
+set "LOCAL_VERSION="
+
+if exist "%LOCAL_VERSION_FILE%" (
+    set /p LOCAL_VERSION=<"%LOCAL_VERSION_FILE%"
+)
+
 set "UPDATER_PATH=%~dp0Updater"
+set "LOCAL_VERSION_PADDED=!LOCAL_VERSION!"
+set "LOCAL_VERSION_DISPLAY=!LOCAL_VERSION_PADDED:~0,10!"
 mode 125, 30
 title Toolbox - Ghost
 chcp 65001 >nul
@@ -36,7 +45,7 @@ echo [38;5;243m                      ████████╗  ████�
 ping localhost -n 1 >nul
 echo [38;5;245m                      ╚══██╔══╝ ██╔═══██╗ ██╔═══██╗ ██║      ██╔══██╗ ██╔═══██╗ ╚██╗██╔╝     ║   Version   ║[0m
 ping localhost -n 1 >nul
-echo [38;5;247m                         ██║    ██║   ██║ ██║   ██║ ██║      ██████╔╝ ██║   ██║  ╚███╔╝      ║     4.3     ║[0m
+echo [38;5;247m                         ██║    ██║   ██║ ██║   ██║ ██║      ██████╔╝ ██║   ██║  ╚███╔╝      ║    !LOCAL_VERSION_DISPLAY!     ║[0m
 
 setlocal EnableDelayedExpansion
 set "LOCAL_VERSION_FILE=%~dp0Updater\Version.txt"

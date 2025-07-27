@@ -35,11 +35,10 @@ echo [38;5;247m ║  4. Clean Windows Update Cache          ║[0m
 echo [38;5;247m ║  5. Clean Prefetch                      ║[0m
 echo [38;5;247m ║  6. Empty Recycle Bin                   ║[0m
 echo [38;5;245m ║  7. Run Full Cleanup                    ║[0m
-echo [38;5;243m ║  8. Exit                                ║[0m
+echo [38;5;243m ║  E. Exit                                ║[0m
 echo [38;5;243m ╚═════════════════════════════════════════╝[0m
 echo.
-choice /c 12345678 /n /m "[38;5;245m Select An Option : [0m"
-
+choice /c 1234567E /n /m "[38;5;245m Select An Option : [0m"
 set "choice=%errorlevel%"
 
 if "%choice%"=="1" goto clean_local
@@ -49,7 +48,9 @@ if "%choice%"=="4" goto clean_windows_update
 if "%choice%"=="5" goto clean_prefetch
 if "%choice%"=="6" goto empty_recycle
 if "%choice%"=="7" goto full_clean
-if "%choice%"=="8" exit /b
+if "%choice%"=="8" (
+    exit /b
+)
 goto menu
 
 :clean_local
