@@ -28,6 +28,16 @@ if %ERRORLEVEL% neq 0 (
 winget install --id Microsoft.WindowsTerminal --source winget --accept-package-agreements --accept-source-agreements
 winget upgrade --id Microsoft.WindowsTerminal --source winget --accept-package-agreements --accept-source-agreements
 
-scoop update & scoop install git & scoop install jq & scoop install curl & scoop update git & scoop update jq & scoop update curl
+call scoop update
+call scoop install 7zip
+call scoop install git
+call scoop install jq
+call scoop install curl
+call scoop update 7zip
+call scoop update git
+call scoop update jq
+call scoop update curl
 
+echo Install-Update Complete
+pause
 exit
