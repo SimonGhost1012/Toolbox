@@ -34,6 +34,7 @@ This Batch File Has Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
 Scoop , 7Zip , Git , Jq , Curl
+
 Those Are Automaticly Installed When You Run Install-Update Requirements.bat
 
 # ⚙️ Features
