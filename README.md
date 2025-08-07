@@ -33,7 +33,8 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 This Batch File Has Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
-Scoop , Curl , JQ , [7-Zip](https://7-zip.com/download.html)
+Scoop , 7Zip , Git , Jq , Curl
+Those Are Automaticly Installed When You Run Install-Update Requirements.bat
 
 # ⚙️ Features
 - Easy-To-Use Interface
