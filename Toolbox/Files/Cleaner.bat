@@ -56,8 +56,14 @@ goto menu
 :clean_local
 cls
 echo [38;5;247m Cleaning Local Temp [%LOCALAPPDATA%\Temp][0m
-del /s /q /f "%LOCALAPPDATA%\Temp\*.*" >nul 2>&1
-del /s /q /f "%USERPROFILE%\Local Settings\Temp\*.*" >nul 2>&1
+del /s /q /f "%LOCALAPPDATA%\Temp\*" >nul 2>&1
+del /s /q /f "%USERPROFILE%\Local Settings\Temp\*" >nul 2>&1
+for /d %%D in ("%LOCALAPPDATA%\Temp\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
+for /d %%D in ("%USERPROFILE%\Local Settings\Temp\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
 echo  Done!
 pause
 goto menu
@@ -65,8 +71,14 @@ goto menu
 :clean_user
 cls
 echo [38;5;247m Cleaning User Temp [%TEMP%][0m
-del /s /q /f "%TEMP%\*.*" >nul 2>&1
-del /s /q /f "%TMP%\*.*" >nul 2>&1
+del /s /q /f "%TEMP%\*" >nul 2>&1
+del /s /q /f "%TMP%\*" >nul 2>&1
+for /d %%D in ("%TEMP%\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
+for /d %%D in ("%TMP%\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
 echo  Done!
 pause
 goto menu
@@ -74,8 +86,14 @@ goto menu
 :clean_windows
 cls
 echo [38;5;247m Cleaning Windows Temp [%WINDIR%\Temp][0m
-del /s /q /f "%WINDIR%\Temp\*.*" >nul 2>&1
+del /s /q /f "%WINDIR%\Temp\*" >nul 2>&1
 for /d %%p in ("%WINDIR%\Temp\*") do rmdir /s /q "%%p"
+for /d %%D in ("%WINDIR%\Temp\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
+for /d %%D in ("%WINDIR%\Temp\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
 echo  Done!
 pause
 goto menu
@@ -84,8 +102,11 @@ goto menu
 cls
 echo [38;5;247m Cleaning Windows Update Cache[0m
 net stop wuauserv >nul 2>&1
-del /s /q /f "%WINDIR%\SoftwareDistribution\Download\*.*" >nul 2>&1
+del /s /q /f "%WINDIR%\SoftwareDistribution\Download\*" >nul 2>&1
 for /d %%p in ("%WINDIR%\SoftwareDistribution\Download\*") do rmdir /s /q "%%p"
+for /d %%D in ("%WINDIR%\SoftwareDistribution\Download\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
 net start wuauserv >nul 2>&1
 echo  Done!
 pause
@@ -94,8 +115,11 @@ goto menu
 :clean_prefetch
 cls
 echo [38;5;247m Cleaning Prefetch [%WINDIR%\Prefetch][0m
-del /s /q /f "%WINDIR%\Prefetch\*.*" >nul 2>&1
+del /s /q /f "%WINDIR%\Prefetch\*" >nul 2>&1
 for /d %%p in ("%WINDIR%\Prefetch\*") do rmdir /s /q "%%p"
+for /d %%D in ("%WINDIR%\Prefetch\*") do (
+    rmdir /s /q "%%D" >nul 2>&1
+)
 echo  Done!
 pause
 goto menu
