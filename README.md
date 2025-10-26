@@ -47,7 +47,7 @@ Those Are Automaticly Installed When You Run Install-Update Requirements.bat
 
 A: Download The Latest Version From The [Releases](https://github.com/SimonGhost1012/ToolBox/releases) Page , Delete And Replace The Old Files.
 
-On V1.7+ You Dont Need To Download It From The Release Page Anymore.
+On V1.7+ You Dont Need To Download It From The Release Page Anymore As It Has An Updater.
 
 # 💬 Support
 If You Need Help Or Have Any Questions, Feel Free To Open An Issue On GitHub Or Join My [Discord Server](https://discord.gg/qnS9HbEBVj) For Assistance.
