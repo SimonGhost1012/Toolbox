@@ -14,7 +14,7 @@
 
 # ℹ️ Info
 
-This Is My Own Toolbox Which I've Made In Batch , It's Fully Open Source And It Contains No Malware Or Similar Like That.
+This Is My Own Toolbox Which I've Made In Batch, C#, .Net. It Contains No Malware Or Similar Like That.
 
 It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 to V1.2.
 ![Screenshot 2024-10-09 094324](https://github.com/user-attachments/assets/f774e1ec-eaba-4594-a449-40112a6de915)
@@ -25,12 +25,12 @@ It Is Recommended To Do A Shortcut Like This On Older Versions Of Toolbox V1.0 t
 
 2. Extract The Zip File Wherever You Want. Use [7-Zip](https://7-zip.com/download.html) Or [Winrar](https://www.win-rar.com/download.html).
 
-3. Run Install Requirements.bat So Toolbox Will Run Properly.
+3. Run Install-Update Requirements.bat So Toolbox Will Run Properly.
 
-4. Run The Main Batch File.
+4. Run The Main Batch File (It's A EXE File After Version 5.0).
 
 # 🖥️ Tested On
-This Batch File Has Been Tested On Windows 10/11.
+Those Files Have Been Tested On Windows 10/11.
 
 # 🖥️ Requirements
 Scoop , 7Zip , Git , Jq , Curl
