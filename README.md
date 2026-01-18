@@ -55,7 +55,7 @@ If You Need Help Or Have Any Questions, Feel Free To Open An Issue On GitHub Or 
 # 🙏 Thank You!
 Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel Free To Contact Me Via My [Discord Server](https://discord.gg/qnS9HbEBVj).
 
-PayPal: https://paypal.me/SimonGhost1012
+[PayPal](https://paypal.me/SimonGhost1012)
 
 BTC : bc1qjxja2rv0zsfs90wv22acgjuf5903vc86uj77y4
 
