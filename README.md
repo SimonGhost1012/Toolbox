@@ -39,7 +39,7 @@ These are automatically installed when you run Install-Update Requirements.bat.
 # ⚙️ Features
 - Easy-to-use interface
 - Lightweight and fast
-- Free and open-source
+- Free and closed-source (security reasons)
 
 # ❓ FAQ
 **Q: How do I update Toolbox?**
