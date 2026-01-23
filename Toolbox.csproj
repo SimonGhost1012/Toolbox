@@ -22,7 +22,7 @@
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="git add .&#xD;&#xA;git commit -m &quot;Auto-update: $(Date:yyyy-MM-dd HH:mm:ss)&quot;&#xD;&#xA;git push origin main" />
+	  <Exec Command="&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(ProjectDir)&quot; add .&#xD;&#xA;&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(ProjectDir)&quot; commit -m &quot;Auto-update: $(Date:yyyy-MM-dd HH:mm:ss)&quot;&#xD;&#xA;&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(ProjectDir)&quot; push origin main&#xD;&#xA;" />
 	</Target>
 
 </Project>
