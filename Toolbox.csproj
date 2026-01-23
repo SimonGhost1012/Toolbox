@@ -21,4 +21,8 @@
 		</None>
 	</ItemGroup>
 
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="git add .&#xD;&#xA;git commit -m &quot;Auto-update: $(Date:yyyy-MM-dd HH:mm:ss)&quot;&#xD;&#xA;git push origin main" />
+	</Target>
+
 </Project>
