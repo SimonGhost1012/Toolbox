@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<SelfContained>false</SelfContained>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ApplicationIcon>ghosts-projects-high-resolution-logo.ico</ApplicationIcon>
+		<PackageIcon>ghosts-projects-high-resolution-logo.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="ghosts-projects-high-resolution-logo.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\..\..\Downloads\ghosts-projects-high-resolution-logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
