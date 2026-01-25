@@ -22,9 +22,7 @@
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(MSBuildProjectDirectory)&quot; add -A ." ContinueOnError="true"/>
-		<Exec Command="&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(MSBuildProjectDirectory)&quot; diff --cached --quiet || &quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(MSBuildProjectDirectory)&quot; commit -m &quot;Auto-Update&quot;" ContinueOnError="true"/>
-		<Exec Command="&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(MSBuildProjectDirectory)&quot; push origin main" ContinueOnError="true"/>
+		<Exec Command="&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(ProjectDir)&quot; add .&#xD;&#xA;&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(ProjectDIr)&quot; diff --cached --quiet || git commit -m &quot;Auto-Update&quot;&#xD;&#xA;&quot;C:\Program Files\Git\cmd\git.exe&quot; -C &quot;$(ProjectDir)&quot; push origin main&#xD;&#xA;" />
 	</Target>
 
 </Project>
