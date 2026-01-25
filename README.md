@@ -13,7 +13,7 @@
 
 
 # ℹ️ Info
-This is my personal Toolbox, made in Batch, C#, and .NET. It contains no malware or similar threats.
+This is my personal open-source Toolbox programm, made in Batch, C#, and .NET. It contains no malware or similar threats.
 
 For older versions of Toolbox (V1.0 to V1.2), it is recommended to create a shortcut as shown below:
 
