@@ -7,7 +7,6 @@ using System.Runtime.InteropServices;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-//test
 
 class Program
 {
@@ -66,10 +65,8 @@ class Program
 
     static async Task Main()
     {
-        // FIRST THING: ensure ANSI support silently
         EnableAnsiSupport();
 
-        // now safe to use console features
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.InputEncoding = System.Text.Encoding.UTF8;
         Console.Title = "Toolbox - Ghost";
@@ -111,7 +108,6 @@ class Program
     {
         try
         {
-            // Check if ANSI is already enabled
             var checkAnsi = new ProcessStartInfo
             {
                 FileName = "cmd.exe",
@@ -123,9 +119,8 @@ class Program
             var checkProcess = Process.Start(checkAnsi);
             checkProcess?.WaitForExit();
 
-            if (checkProcess?.ExitCode != 0) // ANSI not enabled
+            if (checkProcess?.ExitCode != 0)
             {
-                // Enable ANSI
                 var setAnsi = new ProcessStartInfo
                 {
                     FileName = "reg",
@@ -135,20 +130,19 @@ class Program
                 };
                 Process.Start(setAnsi)?.WaitForExit();
 
-                // Restart silently
                 Process.Start(new ProcessStartInfo
                 {
-                    FileName = Environment.ProcessPath, // current executable
+                    FileName = Environment.ProcessPath,
                     UseShellExecute = true,
-                    CreateNoWindow = true, // ensure no new console pops up
+                    CreateNoWindow = true,
                 });
 
-                Environment.Exit(0); // exit current instance
+                Environment.Exit(0);
             }
         }
         catch
         {
-            // ignore silently
+            
         }
     }
 
