@@ -7,11 +7,6 @@
 ![Stability](https://img.shields.io/badge/Stability-Stable-ffffff)
 ![Status](https://img.shields.io/badge/Status-Active-ffffff)
 
-<a href="https://toolbox.mintlify.app/">
-    <img src="https://github.com/SimonGhost1012/SimonGhost1012.github.io/blob/main/docs/static/media/button.png" alt="Docs Button" width="120" height="70" />
-</a>
-
-
 # ℹ️ Info
 This is my personal open-source Toolbox programm, made in Batch, C#, and .NET. It contains no malware or similar threats.
 
