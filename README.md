@@ -57,10 +57,7 @@ If you need help or have any questions, feel free to open an issue on GitHub or 
 # 🙏 Thank You!
 Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel Free To Contact Me Via My [Discord Server](https://discord.gg/qnS9HbEBVj).
 
-<a href="https://www.paypal.com/donate?hosted_button_id=GFZWS5PMB6RNJ">
-  <img src="https://pics.paypal.com/00/s/ZmY5MmFhZmQtZDIyNC00N2NkLWJjMWEtMTVhN2YxY2FlMTVk/file.PNG" 
-  alt="Donate with PayPal" />
-</a>
+[![Donate](https://pics.paypal.com/00/s/ZmY5MmFhZmQtZDIyNC00N2NkLWJjMWEtMTVhN2YxY2FlMTVk/file.PNG)](https://www.paypal.com/donate?hosted_button_id=GFZWS5PMB6RNJ)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T11VD9V5)
 
