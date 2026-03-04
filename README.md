@@ -59,7 +59,7 @@ Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel F
 
 [PayPal](https://paypal.me/SimonGhost1012)
 
-[Ko-fi](https://ko-fi.com/simonghost1012)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T11VD9V5)
 
 BTC : bc1qjxja2rv0zsfs90wv22acgjuf5903vc86uj77y4
 
