@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-ffffff)
 ![Stability](https://img.shields.io/badge/Stability-Stable-ffffff)
 ![Status](https://img.shields.io/badge/Status-Active-ffffff)
-<a href="//www.dmca.com/Protection/Status.aspx?ID=41ae72ec-a02f-4443-ab8d-1243f747c2c3" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w150-5x1-08.png?ID=41ae72ec-a02f-4443-ab8d-1243f747c2c3"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+[![DMCA.com Protection Status](https://images.dmca.com/Badges/dmca-badge-w150-5x1-08.png?ID=41ae72ec-a02f-4443-ab8d-1243f747c2c3)](https://www.dmca.com/Protection/Status.aspx?ID=41ae72ec-a02f-4443-ab8d-1243f747c2c3)
 
 # ℹ️ Info
 This is my personal open-source Toolbox programm, made in Batch, C#, and .NET. It contains no malware or similar threats.
