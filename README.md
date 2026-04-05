@@ -61,6 +61,9 @@ Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel F
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T11VD9V5)
 
+USDT BNB Chain (BEP20):
+0xd1e9b065095a392ed919ee6314cf1203c81c17a3
+
 BTC Native SegWit: bc1quzh5zh7mgkjku87a9g5amgkpehw4jq9mleqgye
 
 ETH Original (Multichain): 0xd1e9b065095a392ed919ee6314cf1203c81c17a3
