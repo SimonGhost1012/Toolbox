@@ -1,4 +1,4 @@
-# Toolbox
+# Toolbox [DISCONTINUED]
 
 ![Image](https://github.com/SimonGhost1012/Toolbox/blob/main/ghosts-projects-high-resolution-logo-smaller.png?raw=true)
 ![Language](https://img.shields.io/badge/Language-Batch%2C%20C%23%2C%20.Net-ffffff)
