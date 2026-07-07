@@ -5,7 +5,7 @@
 ![VirusFree](https://img.shields.io/badge/Virus-Free-ffffff)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-ffffff)
 ![Stability](https://img.shields.io/badge/Stability-Stable-ffffff)
-![Status](https://img.shields.io/badge/Status-Active-ffffff)
+![Status](https://img.shields.io/badge/Status-Discontinued-ffffff)
 
 
 # ℹ️ Info
