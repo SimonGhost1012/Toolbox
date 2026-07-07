@@ -45,7 +45,7 @@ A: Download the latest version from the [Releases](https://github.com/SimonGhost
 For versions V1.7+, you don’t need to download manually anymore, as Toolbox now includes an updater, but you still need to replace the files manually.
 
 # 📝 Contributing
-Want to help improve Toolbox?
+Want to help improve Toolbox? Not possible anymore due to discontinuation.
 
 - Submit a pull request
 - Open an issue
@@ -55,7 +55,8 @@ Want to help improve Toolbox?
 If you need help or have any questions, feel free to open an issue on GitHub or join my [Discord Server](https://discord.gg/qnS9HbEBVj) for assistance.
 
 # 🙏 Thank You!
-Thanks For Checking Out Toolbox! If You Have Any Feedback Or Suggestions, Feel Free To Contact Me Via My [Discord Server](https://discord.gg/qnS9HbEBVj).
+Thanks for checking out Toolbox! If You have any feedback or suggestions, feel free to contact Me via my [Discord Server](https://discord.gg/qnS9HbEBVj).
+Suggestions are not possible anymore due to discontinuation.
 
 [![Donate](https://pics.paypal.com/00/s/ZmY5MmFhZmQtZDIyNC00N2NkLWJjMWEtMTVhN2YxY2FlMTVk/file.PNG)](https://www.paypal.com/donate?hosted_button_id=GFZWS5PMB6RNJ)
 
